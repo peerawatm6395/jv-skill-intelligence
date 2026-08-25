@@ -1,0 +1,50 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+coverage/
+
+# next.js
+.next/
+out/
+build/
+next-env.d.ts
+
+# production
+dist/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files — NEVER commit real secrets
+.env
+.env*.local
+.env.production
+.env.development
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# ============================================================
+# OPERATIONAL DATA — must never enter this repository (Blueprint
+# v2.0 §16 / Implementation Architecture v3.0 §9). Source code
+# and operational JV/employee data are hard-separated.
+# ============================================================
+*.xlsx
+*.xls
+*.csv
+/data/
+/uploads/
+/raw-data/
+seed-real-data*
